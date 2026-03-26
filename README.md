@@ -10,7 +10,7 @@ Built with **FastAPI**, **Claude (Anthropic)**, **SQLite**, and **Matplotlib**.
 
 This project demonstrates three ideas that matter in modern AI engineering:
 
-**1. Agentic tool use** — rather than a single prompt-response, the system runs an autonomous loop where Claude decides which tools to call, in what order, and how many times, before returning a final answer. This is the architecture behind production AI assistants.
+**1. Agentic tool use** — rather than a single prompt-response, the system runs an autonomous loop which decides which tools to call, in what order, and how many times, before returning a final answer. This is the architecture behind production AI assistants.
 
 **2. Text-to-SQL with self-correction** — the agent first inspects the live database schema, then writes a query tailored to the actual table and column names. It can catch errors and retry, rather than hallucinating column names.
 
